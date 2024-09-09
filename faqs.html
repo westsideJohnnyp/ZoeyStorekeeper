@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" class="ltroot ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="LivingThing.Core.Frameworks.Client.css">
+    <link rel="stylesheet" href="mdi/css/materialdesignicons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .top {
+        background-color: gold;
+        padding: 12px;
+
+    }
+
+    a{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+    .all{
+        padding: 23px;
+    }
+
+    .Answer {
+        overflow: hidden;
+        /* display: none; */
+        max-height: 0;
+        font-size: 18px;
+
+    }
+
+    .faq.active .Answer {
+        max-height: 300px;
+    }
+
+    .faq {
+        margin: 12px;
+        background-color: black;
+        color: aliceblue;
+        padding: 18px;
+        font-size: 8px;
+        margin-top: 12px;
+        border-radius: 12px;
+
+    }
+
+    .mail {
+        font-size: 9px;
+        width: 356px;
+        margin-left: 38px;
+
+
+
+    }
+</style>
+
+<body>
+
+    <div class="top">
+        <a href="zoey.html"><img src="icon.png " class="wx-04" alt="" srcset="" ></a>
+
+        <a href="zoey.html">ZOEYSTOREKEEPER</a>
+    </div>
+
+
+    <div class="flex all ">
+
+
+        <div class="pd-2 bg-succes wx-3 hf fsz-7   ">
+            <h2 class=""> F.A.Q</h2>
+
+
+            <div class="faq">
+                
+
+                <div>
+                    <div class="questions  align-justify  pd-6">
+                        <h1>What's Zoey Market? <span class="mdi mdi-arrow-bottom-left-bold-box"></span></h1>
+
+                    </div>
+                </div>
+
+                <div class="Answer">
+                    <p class="pd fsz-17 cl-black"> Zoey Market is management solution that is built to serve every
+                        organization, big
+                        or small. This soolution offers both POS and storekeeper services, with POS
+                        you can sell your product at a fix price on storekeeper, see transaction details, print receipt
+                        and the total sale income
+                        of the day, week or month instantly. </p>
+                </div>
+                <hr>
+            </div>
+
+
+
+
+            <div class="faq">
+
+                <div class="questions content-center pd-6">
+                    <h1>What if I have problem on my zoey Point of Sale system? <span
+                            class="mdi mdi-arrow-bottom-left-bold-box"></span></h1>
+                </div>
+                <div class="Answer fsz-17   cl-black">
+                    Our highly trained support team is available via phone or email. You can also learn from our Seller
+                    Community, or visit the Support Center 24/7 to find useful tips, articles, and thorough video
+                    walkthroughs.
+                </div>
+                <hr>
+            </div>
+
+
+
+
+            <div class="faq">
+
+                <div class=" questions content-center  pd-6">
+                    <h1>Who Can Use Zoey Market ? <span class="mdi mdi-arrow-bottom-left-bold-box"></span></h1>
+                </div>
+                <div class="Answer fsz-17 cl-black">
+                    Zoey Market is management solution is built to serve every organization, big
+                    or small.
+                </div>
+                <hr>
+            </div>
+
+
+
+
+            <div class="faq">
+
+                <div class=" questions content-center  pd-6">
+                    <h1>Are My Data Backup In The Cloud <span class="mdi mdi-arrow-bottom-left-bold-box"></span></h1>
+                </div>
+                <div class="Answer fsz-17 cl-black">
+                    Definatly yes!
+                </div>
+                <hr>
+            </div>
+
+
+
+
+            <div class="faq">
+
+                <div class=" questions content-center  pd-6 ">
+                    <h1>Do You Offers Training? <span class="mdi mdi-arrow-bottom-left-bold-box"></span></h1>
+                </div>
+                <div class="Answer fsz-17 cl-black ">
+                    Yes we offer short duration training.
+                </div>
+                <hr>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="mail">
+        <h1>Got more Questions? Email Us or check on our telegram group to get inform
+            from our video made for you.
+        </h1>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let faqs = document.querySelectorAll(".faq");
+
+
+        faqs.forEach(faq => {
+            faq.addEventListener('click', (e) => {
+                faq.classList.toggle("active");
+            })
+        });
+    </script>
+
+</body>
+
+</html>
